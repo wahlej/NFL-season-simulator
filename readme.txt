@@ -1,0 +1,14 @@
+5/15/20
+
+- Brainstorming idea for simulating games
+    - Ratings from Madden for 5 key players (QB, WR1, RB1, MLB, CB1)
+        - Players randomly have a "Terrible," "Bad," "Average," "Good," or "Great" games
+            - Rating correlates with odds of each performance
+            - Wins/losses increase/decrease rating minimally?
+
+- Working on creating "Team" object with coach, each of the 5 players, team name/location
+    - also creating player object
+
+- For the Future: Need to figure out how to create a random schedule that works
+
+------------------------------------------------------------------------------------------
