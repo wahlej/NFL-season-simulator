@@ -12,3 +12,14 @@
 - For the Future: Need to figure out how to create a random schedule that works
 
 ------------------------------------------------------------------------------------------
+
+5/16/20
+
+- Implementing one team (Arizona Cardinals) and printing it successfully
+
+-------------------------------------------------------------------------------------------
+
+5/18/20
+
+- Added next 5 teams, used lineups.com for depth chart reference
+- If team does not run an MLB, the chosen player will be the better ILB
