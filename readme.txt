@@ -1,25 +1,18 @@
-5/15/20
+NFL Season Simulator
 
-- Brainstorming idea for simulating games
-    - Ratings from Madden for 5 key players (QB, WR1, RB1, MLB, CB1)
-        - Players randomly have a "Terrible," "Bad," "Average," "Good," or "Great" games
-            - Rating correlates with odds of each performance
-            - Wins/losses increase/decrease rating minimally?
+This program is intended to simulate a season of the NFL. The intention is not to be an accurate simulator, but one that still
+takes player quality into consideration (teams with better players should attain more wins.) 
 
-- Working on creating "Team" object with coach, each of the 5 players, team name/location
-    - also creating player object
+Below are the current plans for the program.
 
-- For the Future: Need to figure out how to create a random schedule that works
+The program will starts with all 32 teams, including 5 players (QB, RB, WR, MLB or ILB, and CB), along with the coach. The players 
+have ratings (typically between 70-99) which are taken from the current Madden ratings on the EA Sports Madden site (any rookies without 
+ratings will be given a 75). The user will be able to edit all team info. During a game between two teams, each player will have either 
+a Terrible, Bad, Average, Good, or Great game based on predetermined percentages based on their rating (percentages will be determined 
+through testing to find a good balance). Each of these performances will have a value (1-5, with Terrible being 1 and Great being 5), 
+and whichever team has the higher sum of performances will be the winner. A tie will simply result in a tie in both teams' records.
 
-------------------------------------------------------------------------------------------
+The NFL schedule will be randomly generated. There will be no preseason. The user will be able to simulate in amounts of one week, until
+the end of the regular season, or through past the Super Bowl. The user will be able to check the teams' record at any time.
 
-5/16/20
-
-- Implementing one team (Arizona Cardinals) and printing it successfully
-
--------------------------------------------------------------------------------------------
-
-5/18/20
-
-- Added next 5 teams, used lineups.com for depth chart reference
-- If team does not run an MLB, the chosen player will be the better ILB
+Built by: Jake Wahle (email: jjwahle@crimson.ua.edu)
